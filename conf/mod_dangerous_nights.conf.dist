@@ -1,0 +1,84 @@
+#
+# Dangerous Nights Configuration
+#
+
+[worldserver]
+
+#
+#    DangerousNights.Enable
+#        Description: Enable dynamic nighttime loot and reward multipliers.
+#        Default:     1 (Enabled)
+#
+
+DangerousNights.Enable = 1
+
+#
+#    DangerousNights.NightStartHour
+#        Description: Hour when night starts (0 - 23, 20 = 8:00 PM).
+#        Default:     20
+#
+
+DangerousNights.NightStartHour = 20
+
+#
+#    DangerousNights.NightEndHour
+#        Description: Hour when night ends / dawn arrives (0 - 23, 6 = 6:00 AM).
+#        Default:     6
+#
+
+DangerousNights.NightEndHour = 6
+
+#
+#    DangerousNights.FastClockSpeed
+#        Description: Speed multiplier for servers using accelerated day/night cycles.
+#                     0.0 = Real server clock.
+#                     3.0 = Match mod-fast-day-night (4-hour day / 4-hour night cycle).
+#        Default:     0.0
+#
+
+DangerousNights.FastClockSpeed = 0.0
+
+#
+#    DangerousNights.XPMultiplier
+#        Description: Experience reward multiplier for killing creatures at night.
+#                     1.50 = +50% bonus XP. 1.0 = normal XP.
+#        Default:     1.50
+#
+
+DangerousNights.XPMultiplier = 1.50
+
+#
+#    DangerousNights.GoldMultiplier
+#        Description: Gold / money drop multiplier for creature loot at night.
+#                     1.50 = +50% bonus gold. 1.0 = normal gold.
+#        Default:     1.50
+#
+
+DangerousNights.GoldMultiplier = 1.50
+
+#
+#    DangerousNights.ExtraLootChance
+#        Description: Percentage chance (0.0 to 100.0) for an extra bonus drop on night kills.
+#                     20.0 = 20% chance. 0.0 = disabled.
+#        Default:     20.0
+#
+
+DangerousNights.ExtraLootChance = 20.0
+
+#
+#    DangerousNights.AllowInDungeons
+#        Description: Whether nighttime reward bonuses apply inside dungeons.
+#                     0 = Outdoor world only (Recommended).
+#                     1 = Apply inside dungeons as well.
+#        Default:     0
+#
+
+DangerousNights.AllowInDungeons = 0
+
+#
+#    DangerousNights.AnnounceTransitions
+#        Description: Broadcast server-wide message when night begins and ends.
+#        Default:     1 (Enabled)
+#
+
+DangerousNights.AnnounceTransitions = 1
